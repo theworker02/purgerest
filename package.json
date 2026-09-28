@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/purgerest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Purge HTML/Markdown rest fragments safely for docs pipelines.",
+  "bin": {
+    "purgerest": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/purgerest.git"
+  },
+  "homepage": "https://theworker02.github.io/purgerest/",
+  "keywords": [
+    "purge",
+    "rest",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
